@@ -42,4 +42,12 @@ This project processes images and PDF files to extract text, translate it, and g
 ## Directory Structure
 
 Ensure your directory structure looks like this:
+keyword_extraction/
+├── images/
+│ ├── image1.jpeg
+│ ├── image2.png
+│ ├── sample_pdf.pdf
+├── keywords.py
+├── ocr_env/
+└── output_keywords.txt
 
