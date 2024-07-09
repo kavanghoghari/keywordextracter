@@ -32,11 +32,25 @@ This project processes images and PDF files to extract text, translate it, and g
     wget https://github.com/tesseract-ocr/tessdata/raw/master/hin.traineddata -P ~/tessdata/
     wget https://github.com/tesseract-ocr/tessdata/raw/master/guj.traineddata -P ~/tessdata/
     ```
+5. **Download other**:
+    ```bash
+    source .venv/bin/activate
+    python3
+    import nltk
+   nltk.download('punkt')
+   exit()
 
-5. **Install NLTK data**:
+    nano download_nltk_data.py
+    import nltk
+   nltk.download('punkt')
+    python3 download_nltk_data.py
+    ```
+6. **Install NLTK data**:
     ```bash
     python -m nltk.downloader stopwords
     python -m nltk.downloader punkt
+    python3 keywords.py
+
     ```
 
 ## Directory Structure
